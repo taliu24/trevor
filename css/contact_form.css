@@ -1,0 +1,50 @@
+*{
+  font-size: 25;
+  font-family: sans-serif;
+}
+
+#form{
+  text-align: center;
+  position: relative;
+  background-color: lightblue;
+  height: 500px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+#button{
+  height: 20px;
+  width: 20%;
+  color: blue;
+}
+
+#button:hover{
+  background-color:white;
+  font-size:13.5;
+}
+
+
+.input{
+  text-align: left;
+  padding-left:10;
+  margin-left: 20;
+  background-color: white;
+}
+
+.message{
+  text-align: center;
+  margin-right: 20;
+  right: 0;
+  background-color: white;
+}
+
+.text-area{
+  text-align: left;
+  font-size:12;
+}
+
+.box{
+  height: 400px;
+  width: 340px;
+  position:absolute;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="../css/contact_form.css">
+</head>
+<body>
+  <div>
+    <div id="form">
+      <p>
+        Please fill out this form
+      </p>
+
+      <form action="https://formspree.io/taliu24@gmail.com" method="POST">
+        <div class="input box">
+          name:
+          <input type="text" name="name" placeholder="You name">
+
+          <br>
+          email:
+          <br>
+          <input type="text" name="email" placeholder="Your email">
+          <br>
+
+          Gender:
+          <br>
+          <input type="radio" name="gender" value="male"> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+
+          Password: <br>
+          <input type="password" name="password">
+
+          <br>
+          Date: <br>
+          <input type="date" name="date">
+          <br>
+
+        <a href="../index.html">Home</a>
+        </div>
+
+        <div class="message box">
+          Message:
+          <textarea name="message" rows="23" cols="40" class="text-area" placeholder="Enter Your Text Here" ></textarea>
+          <br>
+          <input type="button" name ="button" id="button" value="Submit">
+          <input type="submit" value="Send">
+        </div>
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>
